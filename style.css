@@ -1,0 +1,122 @@
+/* General body and layout styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #3e4a89;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+    margin: 30px 0;
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Network Visualization Section */
+#network-visualization {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#network-container {
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Community Detection Section */
+#community-detection {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#community-container {
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Sentiment Analysis Section */
+#sentiment-analysis {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sentiment-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+#analyze-btn {
+    background-color: #3e4a89;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#analyze-btn:hover {
+    background-color: #2d3c6b;
+}
+
+#sentiment-output {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    #network-container, #community-container {
+        height: 300px;
+    }
+}
